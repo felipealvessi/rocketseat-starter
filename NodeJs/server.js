@@ -12,7 +12,7 @@ requireDir('./src/models/');
 
 const Product = mongoose.model('Product');
 
-// Primeira rota
+// Rotas
 app.use('/api', require("./src/routes"));
 
 app.listen(3001);
