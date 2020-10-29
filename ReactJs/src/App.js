@@ -1,9 +1,9 @@
-
+import Header from './components/Header/index';
 
 function App() {
   return (
     <div className="App">
-      <h1>Devs do Futuro</h1>
+      <Header />
     </div>
   );
 }
