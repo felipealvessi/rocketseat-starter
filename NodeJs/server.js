@@ -10,8 +10,6 @@ mongoose.connect("mongodb://localhost:27017/nodeapi",
   { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true });
 requireDir('./src/models/');
 
-const Product = mongoose.model('Product');
-
 // Rotas
 app.use('/api', require("./src/routes"));
 
