@@ -9,7 +9,9 @@ module.exports = {
   },
 
   async SharedWorker(req, res) {
-    const product = await Product.findById();
+    const product = await Product.findById(req.params.id);
+
+    return req.json(product);
   },
 
   async store(req, res) {
