@@ -8,7 +8,7 @@ module.exports = {
     return res.json(products);
   },
 
-  async SharedWorker(req, res) {
+  async show(req, res) {
     const product = await Product.findById(req.params.id);
 
     return req.json(product);
