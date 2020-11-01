@@ -27,7 +27,7 @@ module.exports = {
   },
 
   async destroy(req, res) {
-    const product = Product.findByIdAndRemove(req.params.id);
+    await Product.findByIdAndRemove(req.params.id);
 
     return res.send();
   }
