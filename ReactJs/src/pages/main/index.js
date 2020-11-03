@@ -15,6 +15,8 @@ export default class Main extends Component {
 
     console.log(response.data.docs);
 
+    this.setState({ products: response.data.docs });
+
   };
 
   render() {
