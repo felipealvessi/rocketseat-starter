@@ -18,6 +18,6 @@ export default class Main extends Component {
   };
 
   render() {
-    return <h1>Hello Rocketseat</h1>
+    return <h1>Contagem de produtos: {this.state.products.length}</h1>
   }
 }
