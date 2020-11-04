@@ -20,6 +20,8 @@ export default class Main extends Component {
   };
 
   render() {
+    const { products } = this.state;
+
     return (
       <div className="product-list">
         {this.state.products.map(product => (
