@@ -34,8 +34,8 @@ export default class Main extends Component {
           </article>
         ))}
         <div className="actions">
-          <button>Anterior</button>
-          <button>Próximo</button>
+          <button onClik={this.prevPage}>Anterior</button>
+          <button onClik={this.netPage}>Próximo</button>
         </div>
       </div>
     );
