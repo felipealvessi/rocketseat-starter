@@ -39,3 +39,10 @@
   background: #da552f;
   color: #fff;
 }
+
+
+.product-list .actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
