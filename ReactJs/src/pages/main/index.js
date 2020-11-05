@@ -20,6 +20,11 @@ export default class Main extends Component {
 
   };
 
+  prevPage = () => { }
+
+  nextPage = () => { }
+
+
   render() {
     const { products } = this.state;
 
