@@ -27,6 +27,10 @@ export default class Main extends Component {
 
     if (page === 1) return;
 
+    const pageNumber = page - 1;
+
+
+
   }
 
   nextPage = () => {
