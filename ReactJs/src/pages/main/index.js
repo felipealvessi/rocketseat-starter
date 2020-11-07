@@ -22,7 +22,12 @@ export default class Main extends Component {
 
   };
 
-  prevPage = () => { }
+  prevPage = () => {
+    const { page, productInfo } = this.state;
+
+    if (page === 1) return;
+
+  }
 
   nextPage = () => {
     const { page, productInfo } = this.state;
