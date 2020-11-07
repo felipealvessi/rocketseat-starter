@@ -6,6 +6,7 @@ export default class Main extends Component {
   state = {
     products: [],
     productInfo: {},
+    page: 1,
   }
 
   componentDidMount() {
@@ -23,7 +24,9 @@ export default class Main extends Component {
 
   prevPage = () => { }
 
-  nextPage = () => { }
+  nextPage = () => {
+    cost
+  }
 
 
   render() {
