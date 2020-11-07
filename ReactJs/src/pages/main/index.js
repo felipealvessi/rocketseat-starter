@@ -25,7 +25,11 @@ export default class Main extends Component {
   prevPage = () => { }
 
   nextPage = () => {
-    cost
+    const { page, productInfo } = this.state;
+
+    if (page === productInfo.pages) return;
+
+    this.loadProducts(pageNumber);
   }
 
 
