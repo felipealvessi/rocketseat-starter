@@ -29,7 +29,7 @@ export default class Main extends Component {
 
     const pageNumber = page - 1;
 
-
+    this.loadProducts(pageNumber);
 
   }
 
