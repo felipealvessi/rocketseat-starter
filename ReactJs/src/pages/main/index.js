@@ -17,7 +17,7 @@ export default class Main extends Component {
 
     const { docs, ...productInfo } = response.data;
 
-    this.setState({ products: response.data.docs });
+    this.setState({ products: docs, });
 
   };
 
