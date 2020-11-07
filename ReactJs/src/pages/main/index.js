@@ -5,6 +5,7 @@ import './styles.css';
 export default class Main extends Component {
   state = {
     products: [],
+    productInfo: {},
   }
 
   componentDidMount() {
