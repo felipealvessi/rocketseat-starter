@@ -15,6 +15,8 @@ export default class Main extends Component {
   loadProducts = async () => {
     const response = await api.get('/products');
 
+    const { doc, ...productInfo } = response.data;
+
     console.log(response.data.docs);
 
     this.setState({ products: response.data.docs });
